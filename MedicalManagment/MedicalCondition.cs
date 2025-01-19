@@ -1,7 +1,7 @@
-﻿using RoleplayingMedicalRecordCore.MedicalTracking;
+using RoleplayingMedicalRecordCore.MedicalTracking;
 
 
-namespace RoleplayingMedicalRecordCore.MedicalManagmenet {
+namespace RoleplayingMedicalRecordCore.MedicalManagment {
     public abstract class MedicalCondition : IMedicalCondition {
         private string _name;
         private string _description;

@@ -1,4 +1,4 @@
-﻿namespace RoleplayingMedicalRecordCore.MedicalTracking
+namespace RoleplayingMedicalRecordCore.MedicalTracking
 {
     public interface ISymptom
     {
@@ -8,5 +8,7 @@
         public TimeSpan TimeUntilSymptomReturns { get; }
         public bool TreatmentConditionMet { get; }
         public void ExecuteSymptomBehaviour();
+        public void TreatSymptom();
+        public void IncreaseSymptom();
     }
 }
